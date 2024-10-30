@@ -45,9 +45,10 @@ Sample Structured data from AdventureWorksDW2019: "Dim_Calender.csv","Dim_Custom
 
 ### Data Analysis
 To create the required data model for analysis based on business need and the defined user stories the following tables were extracted using the below sql statement 
-One data sourse was shared by the sales manager via email, this was connected in the data model to complete the analysis 
+One data sourse was shared by the sales manager via email, this was connected in the data model to complete the analysis. 
 
-Beslow is the sql statement to cleans and transform the necessary data before analysis 
+Below is the sql statement to cleans and transform the necessary data before analysis 
+
 ### Dim_Calendar 
 ``` 
 --/clean DimDate table to get the column needed---
@@ -211,14 +212,20 @@ The Data Model shows how the FACT_Budget has been connected to the Fact_Internet
 <img width="606" alt="Data Model" src="https://github.com/user-attachments/assets/8449920e-db58-421f-b2e7-e38c87e54ac5">
 
 
+### Sales Dashboard 
+This is the sales management dashboard with one page as the sales overview other pages which focused on combining tables for necessary analysis and visualisation to show sales per customers and products over the specific period of time.
+
+<img width="858" alt="sales Overview" src="https://github.com/user-attachments/assets/212bb876-d922-48be-b40f-f2e0abe39b40">
 
 
 
-### Recommendation
+ <img width="854" alt="Customer Insights" src="https://github.com/user-attachments/assets/cf68f565-19a4-471e-bcaa-46073679c595">
 
-  
-  
-  
+###Findings
+The internet sales have been steadily incresing over the past year , with a noticeable peak during the holidays seasons
+95% of this sales are from Bikes purchase which invarably is the best performing products in terms of sales and revenue.
+Customer segment with high lifetime value (LTV) Should be tergeted for marketing effort
+Most 
 
   
 
